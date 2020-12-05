@@ -3,5 +3,7 @@
 #######################
 dataset/
 reports/img/
-.ipynb_checkpoints
-reports/.ipynb_checkpoints
+.ipynb_checkpoints*
+reports/.ipynb_checkpoints*
+.DS_Store*
+
