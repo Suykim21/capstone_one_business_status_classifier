@@ -3,5 +3,5 @@
 #######################
 dataset/
 reports/img/
-
-
+.ipynb_checkpoints/
+reports/.ipynb_checkpoints/
