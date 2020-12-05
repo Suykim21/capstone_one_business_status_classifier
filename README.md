@@ -35,4 +35,4 @@ Utilized three different machine learning algorithms in solving classification p
 Random forest and Gradient Boosting algorithm gave the best outcome in classifying restaurants as open or closed, although random forest had the highest accuracy rate; gradient boosting model is ideal for this particular classification problem because it had the lowest false positive rate as we don't want lenders to misclassify financially unhealthy restaurants as healthy restaurants.
 
 ## Further Readings
-[Full Report](https://github.com/Suykim21/capstone_one_business_status_classifier/blob/main/reports/consolidated_report.ipynb)
+[Full Report](https://github.com/Suykim21/restaurant_business_status_classifier/blob/main/reports/capstone_one_report.pdf)
