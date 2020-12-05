@@ -2,7 +2,6 @@
 # Don't track these files/folders #
 ###################################
 dataset/
-reports/img/
 .ipynb_checkpoints/
 reports/.ipynb_checkpoints/
 .DS_Store
