@@ -29,10 +29,10 @@ Cleaned and performed data analysis through visualizations and statistical metho
 ### Classification Performance
 Utilized three different machine learning algorithms in solving classification problem.
 - **Random Forest** (Bagging approach) - Used Randomize Search Cross Validation in finding most appropriate parameters for random forest model which resulted precision score of **85%** and recall of **66%** with overall F1-score of **80.1%**
-- **AdaBoost** (Sampling distribution) - Yielded F1-score of **77%**, lower than random forest's accuracy but it provided lower false positives at **40.5%**, decrease from Random Forest's false positives at **42%**
-- **Gradient Boosting** (Learning through residual error) - Using GridSearchCV, it yielded overall accurarcy result at **79.9%** with false positives at **36.9%**.
+- **AdaBoost** (Sampling distribution) - Yielded F1-score of **77%**, lower than random forest's F1-score but it provided lower false positives at **40.5%**, decrease from Random Forest's false positives at **42%**
+- **Gradient Boosting** (Learning through residual error) - Using GridSearchCV, it yielded overall AUC result at **79.9%** with false positives at **36.9%**.
 
-Random forest and Gradient Boosting algorithm gave the best outcome in classifying restaurants as open or closed, although random forest had the highest accuracy rate; gradient boosting model is ideal for this particular classification problem because it had the lowest false positive rate as we don't want lenders to misclassify financially unhealthy restaurants as healthy restaurants.
+Random forest and Gradient Boosting algorithm gave the best outcome in classifying restaurants as open or closed, although random forest had the highest AUC score; gradient boosting model is ideal for this particular classification problem because it had the lowest false positive rate as we don't want lenders to misclassify financially unhealthy restaurants as healthy restaurants.
 
 ## Further Readings
 [Full Report](https://github.com/Suykim21/restaurant_business_status_classifier/blob/main/reports/capstone_one_report.pdf)
